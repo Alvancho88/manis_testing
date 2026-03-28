@@ -68,6 +68,11 @@ python -m pip install --upgrade pip
 | PaddleOCR | Industrial Strength  |It's incredibly fast and has a dedicated "Layout Analysis" feature. It doesn't just read words; it understands that "Burger" and "$15" are on the same line.|
 | EasyOCR  | Ease of Use  | Built on PyTorch. It's very beginner-friendly and handles "noisy" backgrounds (like a photo of a menu on a wooden table) better than older tools.  |
 
+## The Gemini Problem
+<img width="649" height="449" alt="Screenshot 2026-03-27 170009" src="https://github.com/user-attachments/assets/16c7b9ee-f46c-406d-9084-3c6453c12472" />
+<img width="518" height="275" alt="Screenshot 2026-03-26 122239" src="https://github.com/user-attachments/assets/1892717e-5e73-44b6-af0a-c7090c13c5aa" />
+
+
 ## Features_Testing
 
 EasyOCR + Qwen
