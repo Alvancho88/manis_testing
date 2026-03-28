@@ -3,43 +3,64 @@
 ## Quick Command Cheatsheet
 
 ### Template for React Vite
+
 npm create vite@latest my-sugar-app -- --template react-ts
+
 cd my-sugar-app
+
 npm install
+
 npm install -D tailwindcss postcss autoprefixer
+
 npx tailwindcss init -p
 
 ### Qwen 3/32b
+
 pip install openai
+
 https://console.groq.com/keys
 
 ### Initialization
+
 Frontend (After Backend)
+
 cd paddleocr_2_quickstart
+
 pnpm dev
 
 Backend (First)
+
 cd paddleocr_2_quickstart
+
 cd my-sugar-app
+
 python app.py
 
 ### Gemini Setup
+
 npm install @google/generative-ai
+
 pnpm add @google/generative-ai
+
 pnpm create next-app@latest food-test
+
 http://localhost:3000
 
 ### Paddle OCR Setup + Llama
+
 pip install flask flask-cors
 
 Install Paddle with CUDA 12.6 support (matching your driver)
+
 pip install paddlepaddle-gpu==3.0.0b1 -i https://www.paddlepaddle.org.cn/packages/stable/cu126/
 
 Install the OCR toolkit and OpenCV for image processing
 pip install paddleocr opencv-python
 
 pip install ollama
+
 pip install pillow
+
 python -m pip install --upgrade pip
 
 | Model| Column 2 | Column 3 |
